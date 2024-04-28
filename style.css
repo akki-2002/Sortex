@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+    padding: 20px 0;
+    color: white;
+}
+
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    padding: 0 30px;
+
+}
+
+.buttons button{
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.new_array{
+    margin-right: 57vw;
+}
+
+.bubble_sort, .selection_sort, .insertion_sort, .quick_sort{
+    margin-right: 1vw;
+}
+
+.new_array button, .bubble_sort button, .selection_sort button, .insertion_sort button, .quick_sort button, .merge_sort button{
+    padding: 7px 10px;
+    border: 2px solid rgb(0, 38, 255);
+    color: rgb(101, 217, 255);
+    background-color: black;
+    background: linear-gradient(#252525, #252525 50%, rgb(21, 137, 255) 50%, rgb(21, 137, 255));
+    background-size: 100% 200%;
+    transition: background 1s;
+}
+
+.new_array button{
+    border: 2px solid rgb(0, 255, 21);
+    color: rgb(152, 255, 171);
+    background: linear-gradient(#252525, #252525 50%, #2ecc71 50%, #2ecc71);
+    background-size: 100% 200%;
+    transition: background 1s;
+}
+
+.input{
+    color: white;
+    padding: 20px;
+    opacity: 0;
+}
+
+.input input{
+    margin: 5px 0;
+}
+
+.input input{
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 150px;
+    height: 20px;
+    font-size: 18px;
+    border: 2px solid rgb(32, 255, 51);
+}
+
+.input button{
+    margin-top: 20px;
+    padding: 7px 10px;
+    border: 2px solid rgb(32, 255, 51);
+    color: rgb(152, 255, 171);
+    background: linear-gradient(#252525, #252525 50%, #2ecc71 50%, #2ecc71);
+    background-size: 100% 200%;
+    transition: background 1s;
+    border-radius: 4px;
+}
+
+.array{
+    width: 100%;
+    margin-top: 7vw;
+    display: flex;
+    flex-direction: row;
+    padding-right: 0;
+    justify-content: center;
+    opacity: 0;
+}
+
+.block1{
+    border: 3px solid rgb(0, 60, 255);
+    width: 15vh; 
+    height: 13vh;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    text-align: center;
+    font-size: 10vh;
+    background-color: black;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.block2{
+    border: 3px solid rgb(255, 0, 0);
+    width: 15vh;
+    height: 13vh;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    text-align: center;
+    font-size: 10vh;
+    background-color: black;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.block3{
+    border: 3px solid rgb(238, 255, 0);
+    width: 15vh;
+    height: 13vh;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    text-align: center;
+    font-size: 10vh;
+    background-color: black;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.block4{
+    border: 3px solid rgb(0, 247, 255);
+    width: 15vh;
+    height: 13vh;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    text-align: center;
+    font-size: 10vh;
+    background-color: black;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.block5{
+    border: 3px solid rgb(32, 255, 51);
+    width: 15vh;
+    height: 13vh;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    text-align: center;
+    font-size: 10vh;
+    background-color: black;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+.desc{
+    margin-top: 30px;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+
+.desc h2{
+    width: 95vw;
+    position: absolute;
+    opacity: 0;
+}
+
+.animation{
+    animation: fadeInAnimation ease-in 5s;
+}
+
+.new_array button:hover, .input button:hover{
+    background-position: 110% 100%;
+    cursor: pointer;
+    color: white;
+}
+
+.bubble_sort button:hover, .selection_sort button:hover, .insertion_sort button:hover, .quick_sort button:hover, .merge_sort button:hover{
+    background-position: 110% 100%;
+    cursor: pointer;
+    color: white;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+

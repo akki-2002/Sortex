@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="shortcut icon" href="/Images/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header"><h2>SORTEX</h2></div>
+    <div class="buttons">
+        <div class="new_array" id="new_array">
+            <button>new array</button>
+        </div>
+        <div class="bubble_sort" id="bs">
+            <button>Bubble sort</button>
+        </div>
+        <div class="selection_sort" id="ss">
+            <button>Selection sort</button>
+        </div>
+        <div class="insertion_sort" id="is">
+            <button>Insertion sort</button>
+        </div>
+        <div class="quick_sort" id="qs">
+            <button>Quick sort</button>
+        </div>
+    </div>
+    <div class="input" id="input">
+        <h4>Enter the elements</h4>
+        <input type="number" name="array[]" id="a1" required>
+        <div>
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+    <div class="array" id="array">
+    </div>
+    <div class="desc" id="desc">
+        <h2 id="dbs">In Bubble Sort, the method works by examining each set of adjacent elements in the string, from left to right, switching their positions if they are out of order.</h2>
+        <h2 id="dss">In Selection Sort, it selects the smallest element in the array and swaps it into place.</h2>
+        <h2 id="dis">Insertion sort works by continually inserting each element from an unsorted subarray into a sorted subarray.</h2>
+        <h2 class="dqs">Quicksort is a divide-and-conquer algorithm. It works by selecting a 'pivot' element from the array and partitioning the other elements into two sub-arrays, according to whether they are less than or greater than the pivot. </h2>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
